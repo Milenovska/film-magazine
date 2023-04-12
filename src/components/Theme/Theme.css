@@ -1,0 +1,25 @@
+.main-theme {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4rem;
+  background: linear-gradient(45deg, #b83b5e, #6a2c70, #f9ed69);
+  background-size: 600% 600%;
+  width: 100%;
+  min-height: 100vh;
+  animation: gradient 15s ease-in-out;
+  overflow: hidden;
+}
+
+@keyframes gradient {
+  from {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
